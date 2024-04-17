@@ -75,8 +75,9 @@ namespace ToDoList
                         for (int j = 0; j < taskList.Count; j++)
                         {
                             Console.WriteLine($"  {j}.{taskList[j]}");
+                            
                         }
-
+                        Thread.Sleep(1000);
                         break;
                     case "3":
                         Console.WriteLine("  Current Task in the List: ");
@@ -84,7 +85,9 @@ namespace ToDoList
                         for (int i = 0; i < taskList.Count; i++)
                         {
                             Console.WriteLine($"    {i}.{taskList[i]}");
+                            
                         }
+                        Thread.Sleep(1000);
                         break;
                 }
             }
